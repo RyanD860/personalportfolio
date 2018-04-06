@@ -1,0 +1,79 @@
+@media only screen and (max-width: 667px) {
+  #landing {
+    margin-top: 13vh;
+    letter-spacing: 4px;
+    font-size: 1.3em;
+    width: 70%;
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    margin-right: 50px;
+  }
+  #landing h1 {
+    font-size: 5em;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #landinglinks a {
+    margin: 10px 50px 50px 10px;
+    color: #45a29e;
+  }
+
+  #landinglinks a:hover {
+    color: #a24592;
+    cursor: pointer;
+  }
+
+  a:visited {
+    color: #45a29e;
+  }
+
+  .toProj {
+    animation: mover 1s infinite alternate;
+  }
+}
+
+#landing {
+  margin-top: 13vh;
+  letter-spacing: 4px;
+  font-size: 1.3em;
+  width: 70%;
+  position: absolute;
+  right: 0;
+  height: 100vh;
+  margin-right: 50px;
+  text-align: left;
+}
+#landing h1 {
+  font-size: 5em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#landinglinks a {
+  margin: 10px 50px 50px 10px;
+  color: #45a29e;
+}
+
+#landinglinks a:hover {
+  color: #a24592;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #45a29e;
+}
+
+.toProj {
+  animation: mover 1s infinite alternate;
+}
+@keyframes mover {
+  0%,
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
