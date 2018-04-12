@@ -1,3 +1,44 @@
+@media only screen and (max-width: 667px) {
+  #education {
+    margin-top: 2400px;
+    width: 1490px;
+    letter-spacing: 4px;
+    font-size: 1.1em;
+    border-top: 5px grey solid;
+    text-align: left;
+  }
+  #education h1 {
+    font-size: 8em;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  #myEdu img {
+    float: right;
+    margin-bottom: 50px;
+    margin-left: 10px;
+  }
+
+  #myEdu h3 {
+    font-size: 3em;
+    margin-left: 50px;
+  }
+  #myEdu h2 {
+    font-size: 5em;
+    margin-left: 50px;
+  }
+  #myEdu img {
+    height: 300px;
+    width: 350px;
+    margin-right: 50px;
+  }
+  #myEdu ul {
+    margin-right: 500px;
+    margin-left: 50px;
+  }
+  #myEdu li {
+    font-size: 2em;
+  }
+}
 @media only screen and (max-width: 1190px) and (min-width: 780px) {
   #education {
     margin-top: 1300px;
@@ -40,5 +81,9 @@
   }
   #myEdu {
     text-align: left;
+  }
+  #myEdu img {
+    height: 200px;
+    width: 250px;
   }
 }

@@ -39,7 +39,6 @@ const Education = () => {
         <img
           src="http://docs.ccsu.edu/logos/Logo-WordMark-Vertical.png"
           alt="CCSU Logo"
-          style={{ height: "200px", width: "250px" }}
         />
         <h3>Bachelor's degree in Management Information Systems</h3>
         <ul>

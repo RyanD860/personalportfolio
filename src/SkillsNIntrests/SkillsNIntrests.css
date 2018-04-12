@@ -1,3 +1,31 @@
+@media only screen and (max-width: 667px) {
+  #skills {
+    margin-top: 550px;
+    letter-spacing: 4px;
+    font-size: 1.3em;
+    height: 100vh;
+    margin-right: 50px;
+    border-top: 5px grey solid;
+    width: 1490px;
+  }
+  #skills h1 {
+    font-size: 7em;
+    text-align: left;
+    margin-left: 50px;
+  }
+  .listTI {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    color: #45a29e;
+    font-size: 34px;
+  }
+
+  .techflex {
+    margin: 0px 350px 200px 350px;
+  }
+}
 @media only screen and (max-width: 1190px) and (min-width: 780px) {
   #skills {
     margin-top: 2250px;
@@ -36,6 +64,9 @@
     height: 100vh;
     margin-right: 50px;
     border-top: 5px grey solid;
+  }
+  #tech h1 {
+    text-align: left;
   }
   #mytai {
     display: flex;

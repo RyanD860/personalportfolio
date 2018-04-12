@@ -4,6 +4,8 @@ import "./Nav.css";
 const Nav = () => {
   return (
     <div id="navigation">
+      <label for="toggle">Menu &#9776;</label>
+      <input type="checkbox" id="toggle" />
       <div id="nav">
         <a href="#landingscroll">
           {" "}

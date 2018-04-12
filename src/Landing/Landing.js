@@ -6,6 +6,10 @@ const Landing = () => {
   return (
     <div id="landingscroll">
       <div id="landing">
+        <img
+          src={require("/Users/administrator/sites/personalportfolio/src/Nav/ME Croped.jpg")}
+          alt="HeadShot"
+        />
         <h1>RYAN DANIELS</h1>
         <h2>
           Old Saybrook, CT 06475 <span style={{ color: "#45a29e" }}>|</span>{" "}

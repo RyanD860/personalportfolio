@@ -1,4 +1,48 @@
 @media only screen and (max-width: 667px) {
+  #landingscroll {
+    width: 1490px;
+    margin-top: 700px;
+  }
+  #landing {
+    letter-spacing: 4px;
+    font-size: 1.3em;
+  }
+  #landing img {
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 95px 1px rgba(102, 252, 241, 1);
+  }
+  h1 {
+    font-size: 10em;
+    margin-top: 100px;
+  }
+  h2 {
+    font-size: 4em;
+    margin: 200px 200px 0px 200px;
+  }
+  #landinglinks a {
+    margin: 10px 50px 50px 10px;
+    color: #45a29e;
+  }
+
+  #landinglinks a:hover {
+    color: #a24592;
+    cursor: pointer;
+  }
+
+  a:visited {
+    color: #45a29e;
+  }
+
+  .toProj {
+    animation: mover 1s infinite alternate;
+  }
+}
+@media only screen and (min-width: 668px) {
+  #landing img {
+    display: none;
+  }
   #landing {
     margin-top: 13vh;
     letter-spacing: 4px;
@@ -8,6 +52,7 @@
     right: 0;
     height: 100vh;
     margin-right: 50px;
+    text-align: left;
   }
   #landing h1 {
     font-size: 5em;
@@ -32,48 +77,13 @@
   .toProj {
     animation: mover 1s infinite alternate;
   }
-}
-
-#landing {
-  margin-top: 13vh;
-  letter-spacing: 4px;
-  font-size: 1.3em;
-  width: 70%;
-  position: absolute;
-  right: 0;
-  height: 100vh;
-  margin-right: 50px;
-  text-align: left;
-}
-#landing h1 {
-  font-size: 5em;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-#landinglinks a {
-  margin: 10px 50px 50px 10px;
-  color: #45a29e;
-}
-
-#landinglinks a:hover {
-  color: #a24592;
-  cursor: pointer;
-}
-
-a:visited {
-  color: #45a29e;
-}
-
-.toProj {
-  animation: mover 1s infinite alternate;
-}
-@keyframes mover {
-  0%,
-  50% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-20px);
+  @keyframes mover {
+    0%,
+    50% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
 }
