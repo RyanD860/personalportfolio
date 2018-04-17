@@ -29,7 +29,7 @@ const Nav = () => {
         </a>
         <a
           className="navlink"
-          href="https://drive.google.com/file/d/1rCZF_aeLQTatkT98Kz9K9_0TyABht10L/view?ths=true"
+          href="https://drive.google.com/file/d/1nkIJtcmTzXbxmw4xrRdMSUboh2IOBgN4/view"
           target="_blank"
         >
           RESUME
