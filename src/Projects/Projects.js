@@ -11,7 +11,7 @@ const Projects = () => {
       <div id="myprojs">
         <div className="thisproj">
           <div className="left">
-            <a href="http://www.weselljs.club" target="_blank">
+            <a href="http://159.89.50.175:3005/#/" target="_blank">
               <h2 style={{ fontSize: "2em", textDecoration: "underline" }}>
                 Readium
               </h2>
@@ -41,7 +41,7 @@ const Projects = () => {
           </div>
           <div className="right">
             <p>Apr. 2018</p>
-            <a href="http://www.weselljs.club" target="_blank">
+            <a href="http://159.89.50.175:3005/#/" target="_blank">
               <img
                 src={require("./Screen Shot 2018-04-12 at 10.00.38 PM.png")}
                 alt="We Sell J'"
