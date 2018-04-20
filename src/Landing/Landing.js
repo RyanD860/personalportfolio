@@ -9,7 +9,6 @@ const Landing = () => {
         <img src={require("./ME Croped.jpg")} alt="HeadShot" />
         <h1>RYAN DANIELS</h1>
         <h2>
-          Old Saybrook, CT 06475 <span style={{ color: "#45a29e" }}>|</span>{" "}
           (860)-575-8681
         </h2>
         <div id="landinglinks">

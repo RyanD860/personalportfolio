@@ -16,7 +16,7 @@ const Projects = () => {
                 Readium
               </h2>
             </a>
-            <p>(Group Project)</p>
+            <p>(Team Developed App)</p>
             <h3 style={{ letterSpacing: "6px" }}>
               An online publishing platform heavily inspired by the social
               journalism site, Medium
@@ -56,7 +56,7 @@ const Projects = () => {
                 WE SELL J's
               </h2>
             </a>
-            <p>(Personal Project)</p>
+            <p>(Personally Developed App)</p>
             <h3 style={{ letterSpacing: "6px" }}>
               E-commerce website designed to sell sneakers
             </h3>
