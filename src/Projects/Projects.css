@@ -1,4 +1,4 @@
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 778px) {
   #projectss {
     margin-top: 150px;
     letter-spacing: 4px;
@@ -21,7 +21,7 @@
   }
 
   .thisproj img {
-    height: 200px;
+    height: 300px;
     width: 100%;
   }
   .thisproj img:hover {
@@ -36,7 +36,7 @@
     margin: 40px 90px;
   }
 }
-@media only screen and (max-width: 1190px) and (min-width: 780px) {
+@media only screen and (max-width: 1190px) and (min-width: 779px) {
   #projectss {
     margin-top: 800px;
     letter-spacing: 4px;
@@ -80,6 +80,7 @@
 @media only screen and (min-width: 1190px) {
   #projectss {
     margin-top: 800px;
+    margin-bottom: 200px;
     letter-spacing: 4px;
     font-size: 1.3em;
     width: 70%;
@@ -103,7 +104,7 @@
   .left {
     width: 70%;
     text-align: left;
-    margin-right: 150px;
+    margin-right: 0px;
   }
 
   .thisproj img {

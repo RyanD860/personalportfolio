@@ -1,6 +1,6 @@
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 778px) {
   #education {
-    margin-top: 500px;
+    margin-top: 1400px;
     width: 100%;
     letter-spacing: 4px;
     font-size: 1.1em;
@@ -39,9 +39,9 @@
     font-size: 0.8em;
   }
 }
-@media only screen and (max-width: 1190px) and (min-width: 780px) {
+@media only screen and (max-width: 1190px) and (min-width: 779px) {
   #education {
-    margin-top: 1300px;
+    margin-top: 2600px;
     letter-spacing: 4px;
     font-size: 1.1em;
     width: 70%;
@@ -60,10 +60,14 @@
   #myEdu {
     text-align: left;
   }
+  #myEdu img {
+    height: 200px;
+    width: 250px;
+  }
 }
 @media only screen and (min-width: 1191px) {
   #education {
-    margin-top: 2000px;
+    margin-top: 2600px;
     letter-spacing: 4px;
     font-size: 1.3em;
     width: 70%;

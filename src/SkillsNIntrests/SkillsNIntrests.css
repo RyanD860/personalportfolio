@@ -1,4 +1,4 @@
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 778px) {
   #skills {
     margin-top: 120px;
     letter-spacing: 4px;
@@ -26,9 +26,9 @@
     margin: 30px 50px;
   }
 }
-@media only screen and (max-width: 1190px) and (min-width: 780px) {
+@media only screen and (max-width: 1190px) and (min-width: 779px) {
   #skills {
-    margin-top: 2250px;
+    margin-top: 3750px;
     letter-spacing: 4px;
     font-size: 1.3em;
     width: 70%;
@@ -52,10 +52,13 @@
     justify-content: center;
     color: #45a29e;
   }
+  #tech h1 {
+    text-align: left;
+  }
 }
 @media only screen and (min-width: 1191px) {
   #skills {
-    margin-top: 2900px;
+    margin-top: 3600px;
     letter-spacing: 4px;
     font-size: 1.3em;
     width: 70%;

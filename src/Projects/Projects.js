@@ -17,25 +17,30 @@ const Projects = () => {
               </h2>
             </a>
             <p>(Team Developed App)</p>
+            <p>
+              REACT | REDUX | NODE | EXPRESS | AUTH 0 | PostgreSQL | MOMENT |
+              GIT
+            </p>
             <h3 style={{ letterSpacing: "6px" }}>
               An online publishing platform heavily inspired by the social
               journalism site, Medium
             </h3>
             <ul>
               <li>
-                Integrated Redux, along with React, to create a fluid user
-                experience{" "}
+                Lead the creation of back-end (server) and structure of schema
+                for the databases.
               </li>
               <li>
-                Used Git as a group to manage the versions of our project and
-                increase workflow
+                React and Redux used on the front end for application state
+                management
               </li>
               <li>
-                Users can upload and peruse articles in a seamless fashion
+                Integrated Medium editor to allow users to format their articles
+                in numerous ways and stored text formatted
               </li>
               <li>
-                Users have the ability to follow other users, create a reading
-                list, among other features
+                Used Firebase to allow users to upload images from their local
+                computer to use as article thumbnail images
               </li>
             </ul>
           </div>
@@ -57,16 +62,41 @@ const Projects = () => {
               </h2>
             </a>
             <p>(Personally Developed App)</p>
+            <p>
+              REACT | REDUX | NODE | EXPRESS | AUTH 0 | STRIPE | TWILIO |
+              MATERIAL-UI
+            </p>
             <h3 style={{ letterSpacing: "6px" }}>
               E-commerce website designed to sell sneakers
             </h3>
             <ul>
-              <li>Built website from ground up (Front-end + Back-end)</li>
               <li>
-                Taught myself and then implemented Stripe, Twilio, and Material
-                UI
+                Full stack E-commerce website that allows a user to log into,
+                shop, and checkout Air Jordan sneakers
               </li>
-              <li>Completed in three weeks</li>
+              <li>
+                Integrated Auth0, with Node, to allow users to log in through
+                their Google accounts
+              </li>
+              <li>
+                Utilized REST API to communicate between my front-end and
+                back-end
+              </li>
+              <li>
+                Used React and Redux for front end components and application
+                state management
+              </li>
+              <li>
+                Used PostgreSQL to build, store, and manipulate data in a
+                relational database
+              </li>
+              <li>
+                Used Session to store user information and cart information
+              </li>
+              <li>
+                Integrated Stripe and Twilio for checkout and messaging to make
+                checkout process smooth for user
+              </li>
             </ul>
           </div>
           <div className="right">

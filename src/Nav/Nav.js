@@ -22,13 +22,6 @@ const Nav = () => {
         </a>
         <a
           className="navlink"
-          href="mailto:rydaniels@comcast.net?Subject=Hi%20Ryan!%20I'm%20Here%20from%20your%20portfolio!"
-          target="_top"
-        >
-          CONTACT
-        </a>
-        <a
-          className="navlink"
           href="https://drive.google.com/file/d/1_yC8Dvr0wq7MckAIIHHyD2Y51_6-QNg9/view"
           target="_blank"
         >

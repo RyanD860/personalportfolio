@@ -8,9 +8,7 @@ const Landing = () => {
       <div id="landing">
         <img src={require("./ME Croped.jpg")} alt="HeadShot" />
         <h1>RYAN DANIELS</h1>
-        <h2>
-          (860)-575-8681
-        </h2>
+        <h2>(860)-575-8681 | rydaniels@comcast.net</h2>
         <div id="landinglinks">
           <a href="https://github.com/RyanD860" target="_blank">
             <i class="fab fa-github" style={{ fontSize: "4em" }} />

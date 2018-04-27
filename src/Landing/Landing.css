@@ -1,4 +1,4 @@
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 778px) {
   #landingscroll {
     width: 100%;
     margin-top: 150px;
@@ -39,7 +39,7 @@
     animation: mover 1s infinite alternate;
   }
 }
-@media only screen and (min-width: 668px) {
+@media only screen and (min-width: 779px) {
   #landing img {
     display: none;
   }
