@@ -109,6 +109,37 @@ const Projects = () => {
             </a>
           </div>
         </div>
+        <div className="thisproj">
+          <div className="left">
+            <a href="https://github.com/RyanD860/TheNewestNews" target="_blank">
+              <h2 style={{ fontSize: "2em", textDecoration: "underline" }}>
+                The Newest News
+              </h2>
+            </a>
+            <p>(Personally Developed Mobile Application)</p>
+            <p>REACT NATIVE | EXPO</p>
+            <h3 style={{ letterSpacing: "6px" }}>News Application</h3>
+            <ul>
+              <li>Client side mobile app built using the News API</li>
+              <li>
+                Uses Axios to make HTTP requests and handle incoming JSON data
+              </li>
+              <li>
+                Designed using React Native components (View, Buttons, Scroll
+                View, etc.)
+              </li>
+            </ul>
+          </div>
+          <div className="right">
+            <p>Feb. 2018</p>
+            <a href="http://www.weselljs.club" target="_blank">
+              <img
+                src={require("./Screen Shot 2018-03-28 at 9.26.56 PM.png")}
+                alt="We Sell J'"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
