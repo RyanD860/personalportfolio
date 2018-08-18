@@ -109,7 +109,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="thisproj">
+        {/* <div className="thisproj">
           <div className="left">
             <a href="https://github.com/RyanD860/TheNewestNews" target="_blank">
               <h2 style={{ fontSize: "2em", textDecoration: "underline" }}>
@@ -139,7 +139,7 @@ const Projects = () => {
               />
             </a>
           </div>
-        </div>
+        </div>*/}
       </div>
     </div>
   );
